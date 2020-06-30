@@ -1,0 +1,17 @@
+import styled from "../../theme";
+
+const StyledMessage = styled("div")<{ type: string }>`
+  float: ${(props) => (props.type === "sent" ? "right" : "left")};
+  background-color: ${(props) => props.theme.messageBackground};
+  border-radius: ${(props) =>
+    props.type === "sent" ? "7px 0 0 7px;" : "0 7px 7px 7px;"};
+  font-size: 1.2em;
+  width: auto;
+  max-width: 250px;
+  padding: 1rem;
+  margin: ${(props) => (props.type === "sent" ? "4px 0" : "4px 14px")};
+  display: block;
+  clear: both;
+`;
+
+export default StyledMessage;

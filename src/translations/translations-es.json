@@ -1,0 +1,27 @@
+{
+  "clockDisplay": "Pantalla del reloj",
+  "clockModes": {
+    "hours12": "12 horas",
+    "hours24": "24 horas"
+  },
+  "colors": {
+    "color1": "Ligero",
+    "color2": "Oscuro"
+  },
+  "interfaceColor": "Color de la interfaz",
+  "langLabel": "Idioma",
+  "langCode": "ES",
+  "languageEN": "English",
+  "languageES": "Spanish",
+  "nav": {
+    "chatTabLabel": "Charla",
+    "settingsTabLabel": "Configuraciones"
+  },
+  "resetButtonLabel": "Restablecer los valores predeterminados",
+  "ctrlEnterOptionsTitle": "Enviar mensajes en CTRL + ENTRAR",
+  "ctrlEnterSendingOptions": {
+    "option1": "En",
+    "option2": "apagado"
+  },
+  "userName": "Nombre de usuario"
+}
